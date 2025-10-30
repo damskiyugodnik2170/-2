@@ -12,16 +12,16 @@ int main() {
     cout << "4. Весна\n";
     cout << "Ваш выбор: ";
     cin >> choice;
-    if (choice = 1){
+    if (choice == 1) {
         cout << "Наступило лето, наденьте пуховик!";
-}
-    else if (choice = 2) {
+    }
+    else if (choice == 2) {
         cout << "нееет, листьяя!";
-}
-    else if (choice = 3) {
+    }
+    else if (choice == 3) {
         cout << "С новым годом!";
-}
-    else {
+    }
+    else if (choice == 4) {
         cout << "Урааа, листьяяя";
-}
+    }
 }
